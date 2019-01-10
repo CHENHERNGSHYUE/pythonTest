@@ -6,11 +6,11 @@ Created on Sat Jan  5 13:29:40 2019
 """
 
 a = int(input("請輸入數字: ")) #if test
-if a<5:
+if a<5: #java條件式要用括號 python則可以省略
     print("smaller")
 elif a==5:
     print("get!!")
-else:
+else: #else後面不能加東西 若要給條件請有elif
     print("bigger")
 
 a2 = int(input("請輸入數字: ")) #while test
